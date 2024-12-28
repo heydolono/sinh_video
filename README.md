@@ -25,14 +25,20 @@ git clone https://github.com/heydolono/sync_video.git
 cd sync_video
 ```
 
-### 2. Запуск сервера
+### 2. Установка зависимостей
+
+```
+pip install -r requirements.txt
+```
+
+### 3. Запуск сервера
 
 ```
 cd server
 python main.py
 ```
 
-### 3. Запуск клиента
+### 4. Запуск клиента
 
 ```
 cd client
