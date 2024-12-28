@@ -1,7 +1,6 @@
 import pickle
 import time
 
-import numpy as np
 import zmq
 from config import ANNOTATION_PATHS, SYNC_FPS, VIDEO_PATHS
 from frame_extr import read_frame_by_timestamp
