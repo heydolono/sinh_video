@@ -28,6 +28,14 @@ cd sync_video
 ### 2. Установка зависимостей
 
 ```
+python -m venv venv
+```
+
+```
+source venv/Scripts/activate
+```
+
+```
 pip install -r requirements.txt
 ```
 
@@ -35,6 +43,9 @@ pip install -r requirements.txt
 
 ```
 cd server
+```
+
+```
 python main.py
 ```
 
@@ -42,6 +53,9 @@ python main.py
 
 ```
 cd client
+```
+
+```
 python main.py
 ```
 
